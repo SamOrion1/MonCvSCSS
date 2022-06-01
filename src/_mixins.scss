@@ -1,0 +1,9 @@
+@mixin banniere(){
+    margin-left:auto; 
+    margin-right:auto; 
+    text-align:auto; 
+    background:white 
+    url(/public/doc/mabanniere.gif) repeat; 
+    width: 100%; 
+    height: 25px;
+}

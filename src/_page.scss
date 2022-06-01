@@ -1,0 +1,44 @@
+.page {
+
+    display: grid;
+	grid-template-columns: 30% 70%;
+
+    .page__section1{
+
+        text-align: left;
+        margin-left: 50px;
+        padding-top: 2em ;
+
+        .page__section1--t{
+
+            margin-bottom: 1.5em;
+
+        }
+
+        .page__section1--icone{
+
+            width: 18px;
+
+        }
+
+    }
+
+    .page__section2{
+
+        text-align: left;
+        background-color: darkgray;
+        margin-left: 50px;
+        padding-left: 5em;
+        padding-top: 2em;
+        padding-bottom: 3em;
+        padding-right: 5em;
+
+        .page__section2--icone{
+
+            width: 18px;
+
+        }
+
+    }
+
+}

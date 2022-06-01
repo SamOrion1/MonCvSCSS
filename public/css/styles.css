@@ -1,0 +1,100 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode";
+}
+
+body {
+  margin: 0;
+}
+body .banniere {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: auto;
+  background: white url(/public/doc/mabanniere.gif) repeat;
+  width: 100%;
+  height: 25px;
+}
+
+h1 {
+  text-shadow: 1px 1px 2px pink;
+}
+
+h2 {
+  text-decoration: underline;
+  text-shadow: 1px 1px 2px pink;
+}
+
+a {
+  cursor: pointer;
+  color: black;
+}
+ahover {
+  font-size: 18px;
+  color: rgb(51, 48, 48);
+}
+
+p {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.24), 0 0 1em rgba(0, 0, 0, 0.425), 0 0 0.2em rgba(0, 0, 0, 0.473);
+}
+
+.header {
+  height: 250px;
+  width: 100%;
+  margin: 0;
+  padding: 0px;
+  background: #b5bdc8;
+  background: linear-gradient(to bottom, #b5bdc8 0%, #828c95 36%, #28343b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#b5bdc8", endColorstr="#28343b",GradientType=0 );
+}
+.header .header__titre {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.header .header__section1 .header__section1--image {
+  width: 220px;
+  height: 250px;
+  margin: 0em;
+  padding-left: 10em;
+}
+.header .header__section2 {
+  text-align: left;
+  font-size: x-large;
+  color: black;
+}
+
+.page {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.page .page__section1 {
+  text-align: left;
+  margin-left: 50px;
+  padding-top: 2em;
+}
+.page .page__section1 .page__section1--t {
+  margin-bottom: 1.5em;
+}
+.page .page__section1 .page__section1--icone {
+  width: 18px;
+}
+.page .page__section2 {
+  text-align: left;
+  background-color: darkgray;
+  margin-left: 50px;
+  padding-left: 5em;
+  padding-top: 2em;
+  padding-bottom: 3em;
+  padding-right: 5em;
+}
+.page .page__section2 .page__section2--icone {
+  width: 18px;
+}
+
+.footer {
+  background: #b5bdc8;
+  background: linear-gradient(to bottom, #b5bdc8 0%, #828c95 36%, #28343b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#b5bdc8", endColorstr="#28343b",GradientType=0 );
+  text-align: center;
+  color: whitesmoke;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}/*# sourceMappingURL=styles.css.map */

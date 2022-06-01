@@ -1,0 +1,47 @@
+*{
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+
+}
+
+body {
+
+    margin: 0 ;
+
+    .banniere {
+        @include banniere()
+        }
+
+}
+
+h1 {
+
+    text-shadow: $ombreTitre;
+
+}
+
+h2 {
+
+    text-decoration: underline;
+    text-shadow: $ombreTitre;
+
+}
+
+a {
+
+    cursor: pointer;
+    color: black;
+
+    &hover {
+
+        font-size: 18px;
+	    color: rgb(51, 48, 48);
+
+    }
+
+}
+
+p {
+    // color: $paragraphe;
+    text-shadow: $ombreParagraphe;
+}
